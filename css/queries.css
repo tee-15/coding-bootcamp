@@ -26,7 +26,7 @@
     .text {
         margin-top: 0em;
         font-weight: 100;
-        margin-left: 3em;
+        margin-left: 2em;
         position: relative;
         z-index: 5;
         /* white-space: nowrap; */
@@ -79,7 +79,7 @@
     .text {
         margin-top: 0em;
         font-weight: 100;
-        margin-left: 3em;
+        margin-left: 2em;
         position: relative;
         z-index: 5;
         /* white-space: nowrap; */
