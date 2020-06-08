@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+   html,
+   body{
+     font-weight: 300,500,700;
+     font-size: 32px;
+     text-rendering: optimizeLegibility;
+     font-family:Inter;
+     background-color:  hsl(240, 18%, 77%);
+     animation: mymove 5s infinite;
+}  
+@keyframes mymove{
+    from{background-color: hsl(240, 18%, 77%);}
+    to{background-color: hsl(240, 38%, 20%);}
+}   
+a{
+    text-decoration: none;
+    
+}
+.row-text{
+    text-align: center;
+    display: flex;
+}
+.landing{
+    margin-top: 10em;
+}
+.pictures{
+    background-image: url(../image/pattern-bg.svg);
+    height: 30em;
+    width: 30em;
+    z-index: 1;
+    position: absolute;
+    background-repeat: no-repeat;
+    left: 28em;
+    top: 6em;
+
+}
+
+
+.slideshow-container{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 8em;
+    position: relative;
+    z-index: 2;
+    right: 5em;
+}
+.numbertext{
+    color: black;
+    font-size: 14px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 5em;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: black;
+    border-radius: 50%;
+    display: block;
+    transition: background-color 0.6s ease;
+
+}
+.active{
+    background-color: #0000;
+}
+.text{
+    margin-top: 2em;
+    font-weight: 100;
+    margin-left: 9em;
+    position: relative;
+    z-index: 5;
+}
+.myname{
+    color: red;
+    margin-left: 5em;
+}
+.front{
+    color: red;
+    margin-left: 8em;
+}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes  fade {
+    from {opacity: .4;}
+    to{opacity: 1;}
+}
+@keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
